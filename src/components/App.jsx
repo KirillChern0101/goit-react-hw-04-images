@@ -56,7 +56,7 @@ const App = () => {
       }
     };
 
-    if (currentSearch && pageNr > 0) {
+    if (currentSearch) {
       fetchImageData();
     }
   }, [currentSearch, pageNr]);
